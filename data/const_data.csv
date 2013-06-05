@@ -1,0 +1,10 @@
+定数名,値,説明
+BLOCK_SIDE,65,ブロックの横幅(mm)
+DESK_DEPTH,940,机からKinectまでの高さ(mm)
+ERR_LEN,10,許容誤差(mm)
+START_POINT_X,230,画面上で認識を開始する位置(px)
+START_POINT_Y,300,画面上で認識を開始する位置(px)
+BLOCK_NUM_X,5,ブロックのX方向最大数
+BLOCK_NUM_Y,5,ブロックのY方向最大数
+BLOCK_NUM_Z,3,ブロックのZ方向最大数
+DETECT_TH,40,認識しているとみなす閾値。矩形内のピクセルの値のDETECT_TH%以上が特定の高さの値であれば、その高さとみなす。

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="out.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Device">
+      <UniqueIdentifier>{11bf78e4-9d23-43b4-9c94-78341093137a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{21e0ca5d-c6ff-44b8-aa30-f0c322425db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{2671f314-8c58-4923-928c-3cf2c4b493c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib">
+      <UniqueIdentifier>{b1c6ec3f-b9e3-4048-a00d-f8538ad15b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{03e98073-d8af-410a-89c8-5f20a9d20205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Link">
+      <UniqueIdentifier>{b8e2f4fb-65f3-40a2-b5c9-8e7e93de2ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{10edc093-9dc4-4ef8-b478-6972f83f8a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RealField">
+      <UniqueIdentifier>{7e957285-4817-43b2-a5d8-01d1de87d85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Samples">
+      <UniqueIdentifier>{a2dba04a-33fe-4dbf-a225-e3059e49e0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{caacb223-4a6e-49cb-9d36-f42620cca719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wave">
+      <UniqueIdentifier>{4a5b1581-7f0c-4c20-8cb0-e93a910090e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="macro.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib.cpp">
+      <Filter>GameLib</Filter>
+    </ClCompile>
+    <ClCompile Include="IO.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main_color.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main_depth.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main_IR.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="RealField.cpp">
+      <Filter>RealField</Filter>
+    </ClCompile>
+    <ClCompile Include="depth_sample.cpp">
+      <Filter>Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="Mover.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBuffer.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MemMapFile.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FT.cpp">
+      <Filter>Wave</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Keyboard.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="macro.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib.hpp">
+      <Filter>GameLib</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.hpp">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="link.hpp">
+      <Filter>Link</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.hpp">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="RealField.hpp">
+      <Filter>RealField</Filter>
+    </ClInclude>
+    <ClInclude Include="Mover.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBuffer.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="luas.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.hpp">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MemMapFile.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FT.hpp">
+      <Filter>Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.hpp">
+      <Filter>Wave</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

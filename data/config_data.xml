@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<Root class_id="0" tracking_level="0" version="0">
+	<zoom>0.79999995231628418</zoom>
+	<cameraPos class_id="1" tracking_level="0" version="0">
+		<x>235</x>
+		<y>300</y>
+	</cameraPos>
+	<startPoint>
+		<x>233</x>
+		<y>165</y>
+	</startPoint>
+	<zPixel>66</zPixel>
+</Root>
+</boost_serialization>
+
